@@ -76,14 +76,17 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-#StoneScript_img {
+#StoneScript_Logo {
+  width: 800px;
   margin: 0 auto;
   padding: 0px;
-  width: 50%;
+  justify-content: center;
+  border: 5px solid #000;
 }
 
 #StoneScript_Text {
   text-align: right;
+  font-size: 63px;
 }
 
 /* SHIFT */
