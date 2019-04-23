@@ -85,19 +85,6 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-#StoneScript_Logo {
-  width: 800px;
-  margin: 0 auto;
-  padding: 0px;
-  justify-content: center;
-  border: 5px solid #000;
-}
-
-#StoneScript_Text {
-  text-align: right;
-  font-size: 63px;
-}
-
 /* SHIFT */
 nav.shift ul img.LMU_logo {
   background-color: #000000;
@@ -131,4 +118,31 @@ nav.shift ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 183%;
+}
+
+#pageTitle {
+  font-size: 5vw;
+  margin: 0;
+  text-align: center;
+}
+
+#StoneScript_Logo {
+  width: 78%;
+  height: 78%;
+  object-fit: contain;
+  margin: 0 auto;
+  padding: 0px;
+  justify-content: center;
+  border: 5px solid #000;
+}
+
+.LMU_logo {
+  width: 95%;
+  height: 95%;
+}
+
+#StoneScript_Text {
+  text-align: right;
+  font-size: 5vw;
+  padding: 3%;
 }
