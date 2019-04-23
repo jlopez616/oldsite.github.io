@@ -37,11 +37,20 @@ section {
   height: 100vh;
 }
 
+.card {
+  width: 45%;
+  text-align: left;
+  margin: 40px auto;
+  float: none;
+  margin-bottom: 10px;
+  border-color: black;
+}
+
 /* NAVIGATION */
 nav {
   width: 100%;
   margin: auto;
-  background: gray;
+  background: black;
   padding: 0px 0px;
   box-shadow: 0px 0px 0px #dedede;
   text-decoration: none;
