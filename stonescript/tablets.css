@@ -1,0 +1,7 @@
+.carousel {
+  width:640px;
+  height:360px;
+  object-fit: contain;
+  text-align: center;
+  margin: auto;
+}
