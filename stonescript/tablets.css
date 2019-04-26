@@ -1,7 +1,32 @@
 .carousel {
-  width:640px;
-  height:360px;
+  width: 60%;
+  height: 300px;
   object-fit: contain;
   text-align: center;
   margin: auto;
+  margin-top: 5%;
+  background-color: #a3a3a3;
+  outline: 5px solid black;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+}
+
+.carousel-item {
+  text-align: left;
+  height: 300px;
+}
+
+a.carousel-control-prev {
+  height: 300px;
+}
+
+a.carousel-control-next {
+  height: 300px;
+}
+
+pre {
+  border-left: 10%;
 }
