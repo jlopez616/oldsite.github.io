@@ -1,18 +1,49 @@
 body {
     margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #header {
-    height: 400px;
+    max-height: 400px;
     background: url('header.JPG');
     background-size: cover;
     background-position: right bottom;
     background-attachment: fixed;
   }
+  #headshot {
+      background-color: beige;
+      height: 250px;
+      width: 250px;
+      border-style: solid;
+      border-radius: 150px;
+      border-color: burlywood;
+
+  }
+
+
+  #navitems > p {
+      padding: 5px;
+
+
+
+  }
+
+  #navbar {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-color: burlywood;
+    border-style: solid;
+    background-color: beige;
+    position: fixed;
+    top: 50;
+    left: 25;
+    visibility: hidden;
+  }
 
   h1 {
       color: white;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      text-align: center;
+      
+      text-align: right;
+      margin-right: 5%;
       padding-top: 200px;
       padding-bottom: 200px;
   }
