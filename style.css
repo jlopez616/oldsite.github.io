@@ -23,6 +23,11 @@ a:link {
     background-attachment: fixed;
   }
 
+  #header > h1 {
+      margin-left: 400px;
+      padding-right: 25px;
+  }
+
 
   #headshot {
       background-color: beige;
@@ -74,7 +79,7 @@ a:link {
       color: white;
       
       text-align: right;
-      margin-right: 5%;
+      margin-right: 5px;
       padding-top: 200px;
       padding-bottom: 200px;
   }
@@ -93,15 +98,13 @@ a:link {
 
   }
 
-  a {
-      
-  }
+  
 
 
 .panelInner {
     position: relative;
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
@@ -117,8 +120,8 @@ a:link {
 
   .panelFront, .panelBack {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     backface-visibility: hidden;
   }
 
