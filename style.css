@@ -2,42 +2,73 @@ body {
     margin: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* unvisited link */
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  
 #header {
     max-height: 400px;
     background: url('header.JPG');
     background-size: cover;
-    background-position: right bottom;
+    background-position: right;
     background-attachment: fixed;
   }
+
+
   #headshot {
       background-color: beige;
+      background: url('headshot.jpeg');
+      background-size: 250px;
       height: 250px;
       width: 250px;
       border-style: solid;
       border-radius: 150px;
       border-color: burlywood;
+      margin-left: 5px;
+
 
   }
 
 
   #navitems > p {
-      padding: 5px;
-
+      padding-right: 10px;
 
 
   }
 
   #navbar {
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
+    border-radius: 50px;
     border-color: burlywood;
     border-style: solid;
     background-color: beige;
     position: fixed;
     top: 50;
     left: 25;
-    visibility: hidden;
+    padding-bottom: 30px;
+    font-weight: bold;
   }
+  .content {
+    margin-left: 325px;
+    padding: 20px;
+}
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        'header header'
+        'box box'
+        'box box';
+        grid-gap: 10px;
+    }
+
 
   h1 {
       color: white;
@@ -47,3 +78,61 @@ body {
       padding-top: 200px;
       padding-bottom: 200px;
   }
+
+  h2 {
+      text-align: center;
+      grid-area: header;
+  }
+
+  h3 {
+      text-align: center
+  }
+
+  .panel {
+      padding: 25px;
+
+  }
+
+  a {
+      
+  }
+
+
+.panelInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-color: gray;
+    border-style: solid;
+    height: 375px;
+    padding: 10px;
+    }
+  .panel:hover .panelInner {
+    transform: rotateY(180deg);
+  }
+
+  .panelFront, .panelBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .panelBack {
+    transform: rotateY(180deg);
+  }
+  .panelBack > p {
+      padding-left: 25px;
+
+  }
+
+  .panelFront > p {
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 25px;
+  }
+  
