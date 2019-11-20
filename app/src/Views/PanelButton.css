@@ -1,0 +1,9 @@
+.panelButton {
+    border-style: solid;
+    background-color: white;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    max-width: 100px;
+}
