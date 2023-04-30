@@ -7,7 +7,7 @@
     "babel-jest": "^24.9.0",
     "gh-pages": "^2.1.1",
     "immutability-helper": "^3.0.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "next": "^9.0.8",
     "react": "^16.10.2",
     "react-dnd": "^9.4.0",
